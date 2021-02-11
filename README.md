@@ -30,6 +30,8 @@ mingw64를 다운로드하고 sfml을 다운로드하는 어려운 경로로 이
 
 The usage is very simple. Go to the link above and extract. Then Run Chikpi.exe. If it doesn't work, try your best to compile it with the original code.
 
+Demo: https://youtu.be/VTu0Y9ZsSCw
+
 # 설명서 뒷광고
 
 연구같은거 하실때에 네이버 뉴스 긁어모으고 힘드셨죠?
