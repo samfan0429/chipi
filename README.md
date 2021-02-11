@@ -11,6 +11,7 @@ If one wants to use the resource files (images, audio files), please consult wit
 이 파일은 상업적인 목적과 일절 상관이 없는 개인적인 취미 생활이니 이를 빼돌려서 악용할 경우 법정에서 면담을 나누게 돼는 힘든 삶이 양자에게 기다립니다.
 
 E-mail (Code Author): jappan4212@gmail.com
+
 E-mail (Pokemon Drunk Oak): drunkoak@gmail.com
 
 # Chikorita Piano 치코리타 피아노 (일명 칰피 Chik-Pi) 사용법 How to Use
