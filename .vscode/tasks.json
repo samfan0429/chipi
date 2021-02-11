@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build chikpi",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-c","include/*.cpp","-I","include"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "build main",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-c","main.cpp","-I","include"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "build all",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-c","main.cpp","include/Chikpi.cpp","include/Chikorita.cpp","include/Voice.cpp","-I","include"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "build runnable",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g","main.o","Chikpi.o","Chikorita.o","Voice.o","-o","Chikpi","-lsfml-audio","-lsfml-graphics","-lsfml-window","-lsfml-system"
+            ],
+            "problemMatcher": [],
+            "dependsOn": [
+                "build main"
+            ]
+        }
+    ]
+}
