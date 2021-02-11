@@ -39,4 +39,4 @@ Demo: https://youtu.be/VTu0Y9ZsSCw
 
 이제 그런거 편하게 하세요. 여기 링크 타고 https://github.com/samfan0429/Naver_news_scraper/tree/v1.0.0.alpha 사용해보시고 후기를 Issues 항목에 남겨주세요.
 
-다 무료 오픈 소스입니다.
+다 무료입니다. 표절이나 상업적인 목적으로 쓰실 경우 양자에게 힘든 미래가 기다립니다.
