@@ -2,12 +2,16 @@
 #define CHIKPI_H
 
 # include <vector>
+# include <memory>
+
 # include <SFML/Graphics.hpp>
 # include <SFML/Audio.hpp>
 # include <SFML/Network.hpp>
 # include <SFML/Window.hpp>
 # include <SFML/System.hpp>
+
 # include "Chikorita.h"
+
 
 // Main Application
 class Chikpi
@@ -18,7 +22,7 @@ private:
     sf::Event ev;
 
     // Objects
-    std::vector<Chikorita*> piano;
+    std::vector<std::shared_ptr<Chikorita>> piano;
 
     void initvariables();
     void initWindow();

@@ -9,7 +9,9 @@ Chikorita::Chikorita(std::string name, int x, int y, int t)
 
 Chikorita::~Chikorita()
 {
-    delete this;
+    // std::cout <<"Destructor Called " <<std::endl;
+    delete this->voice;
+    this->animation->~Texture();
 }
 
 // Private setups

@@ -18,7 +18,11 @@ Voice::Voice(std::string name)
 
 Voice::~Voice()
 {
-    delete this;
+    // std::cout << "Sound gone" << std::endl;
+    this->buffer1.~SoundBuffer();
+    this->buffer2.~SoundBuffer();
+    this->voice.~Sound();
+    this->piano.~Sound();
 }
 
 // Public
