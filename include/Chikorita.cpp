@@ -77,6 +77,6 @@ void Chikorita::update()
     {
         // this->setPosition(this->initX,this->getPosition().y-1);
         // std::cout << this->getPosition().y << std::endl;
-        this->move(0.f,0.1f);
+        this->move(0.f,2.5f);
     }
 }

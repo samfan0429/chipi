@@ -12,20 +12,23 @@ void Chikpi::initWindow()
     this->videomode.height = 720;
     this->videomode.width = 1300;
     this->window = new sf::RenderWindow(this->videomode, "ChikPi",sf::Style::Titlebar | sf::Style::Close);
+    this->window->setFramerateLimit(60);
+    // this->window->setVerticalSyncEnabled(true);
 }
 
 void Chikpi::initChiko()
 {
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("10E",700.f,450.f,60))); //60 is threshold
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("9D",200.f,450.f,60)));
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("8C",930.f,620.f,395))); //395 is threshold
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("7B",700.f,620.f,395))); 
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("6A",160.f,620.f,395))); 
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("5G",960.f,630.f,455))); //455 is threshold
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("4F",780.f,630.f,455))); 
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("3E",550.f,630.f,455)));
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("2D",330.f,630.f,455)));
-    this->piano.push_back(std::move(std::make_shared<Chikorita>("1C",0.f,630.f,455)));
+    piano.reserve(10);
+    piano.push_back(std::move(std::make_shared<Chikorita>("10E",700.f,450.f,60))); //60 is threshold
+    piano.push_back(std::move(std::make_shared<Chikorita>("9D",200.f,450.f,60)));
+    piano.push_back(std::move(std::make_shared<Chikorita>("8C",930.f,620.f,395))); //395 is threshold
+    piano.push_back(std::move(std::make_shared<Chikorita>("7B",700.f,620.f,395))); 
+    piano.push_back(std::move(std::make_shared<Chikorita>("6A",160.f,620.f,395))); 
+    piano.push_back(std::move(std::make_shared<Chikorita>("5G",960.f,630.f,455))); //455 is threshold
+    piano.push_back(std::move(std::make_shared<Chikorita>("4F",780.f,630.f,455))); 
+    piano.push_back(std::move(std::make_shared<Chikorita>("3E",550.f,630.f,455)));
+    piano.push_back(std::move(std::make_shared<Chikorita>("2D",330.f,630.f,455)));
+    piano.push_back(std::move(std::make_shared<Chikorita>("1C",0.f,630.f,455)));
 }
 
 // Constructor & Destructor

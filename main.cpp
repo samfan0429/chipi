@@ -26,8 +26,8 @@
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
-    // HWND hwnd = GetConsoleWindow();
-    // ShowWindow(hwnd, 0);
+    HWND hwnd = GetConsoleWindow();
+    ShowWindow(hwnd, 0);
 
     // Init Game
     std::unique_ptr<Chikpi> game = std::make_unique<Chikpi>();
