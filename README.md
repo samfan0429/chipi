@@ -17,7 +17,7 @@ E-mail (Pokemon Drunk Oak): drunkoak@gmail.com
 # Chikorita Piano 치코리타 피아노 (일명 칰피 Chik-Pi) 사용법 How to Use
 이거에 설치법은 간단합니다. 여기 링크로 이어져있는 구글 드라이브의 압축 파일의 압축을 풀어주세요.
 
-여기 --> https://drive.google.com/file/d/1BpOg2-_g0bZjJ2oTZzASA_le7v-5GicM/view?usp=sharing
+여기 --> https://drive.google.com/file/d/1Wc6aA8n2mFfwS6Kc3-BD168Jv2pGlbyO/view?usp=sharing 
 
 압축풀고 Chikpi.exe 파일을 실행하면 가능입니다. 실행이 안돼실 경우....
 
@@ -31,7 +31,7 @@ mingw64를 다운로드하고 sfml을 다운로드하는 어려운 경로로 이
 
 The usage is very simple. Go to the link above and extract. Then Run Chikpi.exe. If it doesn't work, try your best to compile it with the original code.
 
-Demo: https://youtu.be/VTu0Y9ZsSCw
+Demo: https://youtu.be/sL2X2QGarCw 
 
 # 설명서 뒷광고
 
