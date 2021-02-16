@@ -128,6 +128,7 @@ void Chikpi::pollEvents()
                 else if(this->ev.key.code==sf::Keyboard::Num0){
                     piano[0]->lift();
                 }
+                break;
         }
     }
 }
@@ -152,7 +153,7 @@ void Chikpi::render()
     this->window->clear(sf::Color(255,255,255,255));
 
     for(auto a:this->piano){
-        this->window->draw(*a);
+        this->window->draw(a->getSprite());
     }
 
     this->window->display();

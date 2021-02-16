@@ -8,16 +8,19 @@
 # include <SFML/System.hpp>
 # include "Voice.h"
 # include <string>
+# include <memory>
 # include <iostream>
 
-class Chikorita: public sf::Sprite
+class Chikorita
 {
     private:
+        sf::Sprite ani;
         std::string name;
-        sf::Texture animation[2];
+        sf::Texture closed;
+        sf::Texture open;
         int initX,initY,threshold;
 
-        Voice* voice;
+        std::shared_ptr<Voice> voice;
         bool playing;
 
         void initVariables(std::string name,int x,int y, int t);
@@ -25,10 +28,13 @@ class Chikorita: public sf::Sprite
 
     public:
         Chikorita(std::string name,int x,int y, int t);
+        // Chikorita(Chikorita& a);
         virtual ~Chikorita();
         void play();
         void lift();
         void update();
+
+        sf::Sprite getSprite();
 };
 
 #endif
