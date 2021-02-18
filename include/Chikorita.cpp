@@ -16,10 +16,17 @@ Chikorita::~Chikorita()
 }
 
 // Copy Constructor
-// Chikorita::Chikorita(Chikorita& a)
-// {
-//     int x=1;
-// }
+Chikorita::Chikorita(const Chikorita& a)
+    : name(a.name),initX(a.initX),initY(a.initY),threshold(a.threshold),
+    ani(a.ani),open(a.open),closed(a.closed),voice(a.voice),playing(a.playing)
+{
+}
+ //Copy operator
+Chikorita& Chikorita::operator=(const Chikorita& a)
+{
+    *this = Chikorita(a);
+    return *this;
+}
 
 // Private setups
 void Chikorita::setAudio(std::string name)

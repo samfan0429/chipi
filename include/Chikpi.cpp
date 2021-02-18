@@ -19,16 +19,16 @@ void Chikpi::initWindow()
 void Chikpi::initChiko()
 {
     piano.reserve(10);
-    piano.push_back(std::move(std::make_shared<Chikorita>("10E",700.f,450.f,60))); //60 is threshold
-    piano.push_back(std::move(std::make_shared<Chikorita>("9D",200.f,450.f,60)));
-    piano.push_back(std::move(std::make_shared<Chikorita>("8C",930.f,620.f,395))); //395 is threshold
-    piano.push_back(std::move(std::make_shared<Chikorita>("7B",700.f,620.f,395))); 
-    piano.push_back(std::move(std::make_shared<Chikorita>("6A",160.f,620.f,395))); 
-    piano.push_back(std::move(std::make_shared<Chikorita>("5G",960.f,630.f,455))); //455 is threshold
-    piano.push_back(std::move(std::make_shared<Chikorita>("4F",780.f,630.f,455))); 
-    piano.push_back(std::move(std::make_shared<Chikorita>("3E",550.f,630.f,455)));
-    piano.push_back(std::move(std::make_shared<Chikorita>("2D",330.f,630.f,455)));
-    piano.push_back(std::move(std::make_shared<Chikorita>("1C",0.f,630.f,455)));
+    piano.push_back(std::make_shared<Chikorita>("10E",700.f,450.f,60)); //60 is threshold
+    piano.push_back(std::make_shared<Chikorita>("9D",200.f,450.f,60));
+    piano.push_back(std::make_shared<Chikorita>("8C",930.f,620.f,395)); //395 is threshold
+    piano.push_back(std::make_shared<Chikorita>("7B",700.f,620.f,395)); 
+    piano.push_back(std::make_shared<Chikorita>("6A",160.f,620.f,395)); 
+    piano.push_back(std::make_shared<Chikorita>("5G",960.f,630.f,455)); //455 is threshold
+    piano.push_back(std::make_shared<Chikorita>("4F",780.f,630.f,455)); 
+    piano.push_back(std::make_shared<Chikorita>("3E",550.f,630.f,455));
+    piano.push_back(std::make_shared<Chikorita>("2D",330.f,630.f,455));
+    piano.push_back(std::make_shared<Chikorita>("1C",0.f,630.f,455));
 }
 
 // Constructor & Destructor

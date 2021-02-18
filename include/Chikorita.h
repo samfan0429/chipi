@@ -28,7 +28,11 @@ class Chikorita
 
     public:
         Chikorita(std::string name,int x,int y, int t);
-        // Chikorita(Chikorita& a);
+        
+        //Copy Constructors
+        Chikorita(const Chikorita& a);
+        Chikorita &operator= (const Chikorita& a);
+        
         virtual ~Chikorita();
         void play();
         void lift();
